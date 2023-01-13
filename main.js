@@ -1,4 +1,6 @@
+//Sources.
 //https://www.w3schools.com/jsref/prop_textarea_value.asp
+//https://linuxhint.com/set-text-area-value-javascript/
 function calculateRowReduction(){
     var column = 1;
     var firstValue = document.getElementById("submit1").value;
