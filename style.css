@@ -1,0 +1,16 @@
+body{
+    text-align: center;
+    background-color: lightblue;
+    font-size: xx-large;
+}
+button{
+    padding: 10;
+    font-size: medium;
+    width: 300px;
+    height: 50px;
+}
+textarea{
+    padding: 10;
+    width: 100px;
+    height: 50px;
+}

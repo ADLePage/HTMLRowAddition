@@ -1,0 +1,77 @@
+<!--
+    Sources:
+    https://www.w3schools.com/html/html_editors.asp
+    https://www.w3schools.com/tags/tag_button.asp
+-->
+<html>
+    <head>
+        <title>
+            Aidans WebPage
+        </title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div id = "titleTime">
+            Row Reduction Calculator.
+        </div>
+        <div id = "titleTime">
+            Supports up to 2 rows and 4 columns!
+        </div>
+        <div>
+            R1:    
+            <textarea id = "row1column1"></textarea>
+            x^3
+            +
+            <textarea id = "row1column2"></textarea>
+            x^2
+            +
+            <textarea id = "row1column3"></textarea>
+            x
+            +
+            <textarea id = "row1column4"></textarea>
+        </div>
+        &nbsp;
+        <div>
+            R2:    
+            <textarea id = "row2column1"></textarea>
+            x^3
+            +
+            <textarea id = "row2column2"></textarea>
+            x^2
+            +
+            <textarea id = "row2column3"></textarea>
+            x
+            +
+            <textarea id = "row2column4"></textarea>
+        </div>
+        &nbsp;
+        <div>
+            R1
+            <textarea id = "submit1"></textarea>
+            +
+            R2
+            <textarea id = "submit2"></textarea>
+        </div>
+        &nbsp;
+        <div>
+            <script src="main.js"></script>
+            <button onclick="calculateRowReduction()">
+            Click here to calculate!
+            </button>
+        </div>
+        &nbsp;
+        <div>
+            Result  
+            <textarea id = "result1"></textarea>
+            x^3
+            +
+            <textarea id = "result2"></textarea>
+            x^2
+            +
+            <textarea id = "result3"></textarea>
+            x
+            +
+            <textarea id = "result4"></textarea>
+        </div>
+    </body>
+</html>
